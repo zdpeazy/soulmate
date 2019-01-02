@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="content">
+    <view class="circle-box" bindtap='searchFriend'>
+      <canvas class="circle" style="width: 160px; height: 160px;" canvas-id="canvasArcCir">
+      </canvas>
+    </view>
+    <view class="find_txt">
+      <text>今日剩余<text class='num'>{{chatMatchCount}}</text>次</text>
+    </view>
+  </view>
+  <import src="../../components/tabbar.wxml" />
+  <template is="tabBar" data="{{tabBar}}" />
+</view>

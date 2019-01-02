@@ -1,0 +1,20 @@
+.content{
+  padding: 30rpx;
+}
+.content .logo{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.content .txt{
+  font-size: 45rpx;
+  color: #e19690;
+  padding: 150rpx 0 300rpx;
+  text-align: center;
+}
+.content button{
+  width: 80%;
+  margin-top: 20rpx;
+  background-color: #e19690;
+  color: #fff;
+}

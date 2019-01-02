@@ -1,0 +1,55 @@
+page{
+  background: #e19690;
+}
+.content{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+.opposite{
+  padding-top: 100rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  position: relative;
+}
+.opposite .avatar{
+  width: 200rpx;
+  height: 200rpx;
+}
+.opposite .avatar image{
+  width: 200rpx;
+  height: 200rpx;
+}
+.opposite .name{
+  font-size: 32rpx;
+  letter-spacing: 5rpx;
+  padding-top: 20rpx;
+}
+.opposite .contacting{
+  font-size: 26rpx;
+  letter-spacing: 3rpx;
+  padding-top: 15rpx;
+}
+.cancel{
+  width: 100%;
+  position: absolute;
+  bottom: 30rpx;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cancel image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.cancel .txt{
+  padding-top: 10rpx;
+  display: block;
+  font-size: 22rpx;
+  text-align: center;
+}

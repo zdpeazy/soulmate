@@ -1,0 +1,3 @@
+<template name="blurImg">
+  <image class='blur_img' src='../../images/bg.png'></image>
+</template>

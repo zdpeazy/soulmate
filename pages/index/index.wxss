@@ -1,0 +1,37 @@
+.content{
+  
+}
+.content .find_txt{
+  padding-top: 50rpx;
+  font-size: 30rpx;
+  color: #666;
+  text-align: center;
+}
+.content .find_txt .num{
+  color: #e17b76;
+  font-weight: bold;
+}
+/* 雷达效果 */
+.circle-box {
+  text-align: center;
+  padding-top: 20vw;
+  height: 40vw;
+}
+
+.circle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.draw_btn {
+  width: 35vw;
+  position: absolute;
+  top: 33vw;
+  right: 0;
+  left: 0;
+  margin: auto;
+  border: 1px #000 solid;
+  border-radius: 5vw;
+}

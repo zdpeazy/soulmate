@@ -1,0 +1,63 @@
+page{
+  background: #eee;
+}
+.container{
+  box-sizing: border-box;
+  padding-top: 30rpx;
+}
+.swiper_content{
+  width: 690rpx;
+  height: 850rpx;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 8rpx;
+  overflow: hidden;
+}
+.swiper_content .swiper_detail{
+  width: 690rpx;
+  height: 850rpx;
+}
+.swiper_content .swiper_detail .image-view{
+  width: 690rpx;
+  height: 690rpx;
+}
+.swiper_content .swiper_detail .info{
+  box-sizing: border-box;
+  width: 690rpx;
+  height: 200rpx;
+  background: #fff;
+  padding: 10rpx 20rpx;
+}
+.swiper_content .swiper_detail .info .name{
+  box-sizing: border-box;
+  padding: 10rpx 0 20rpx;
+  font-size: 32rpx;
+  color: #e19690;
+}
+.swiper_content .swiper_detail .info .address{
+  box-sizing: border-box;
+  font-size: 28rpx;
+  color: #999;
+}
+.button_content{
+  display: flex;
+  justify-content: center;
+  margin-top: 30rpx;
+}
+.button_content .item{
+  width: 90rpx;
+  height: 90rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 50%;
+  border: 15rpx solid #e2e1e1;
+}
+.button_content .item:last-child{
+  margin-left: 180rpx;
+}
+.button_content .item image{
+  width: 60rpx;
+  height: 60rpx;
+}

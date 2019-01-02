@@ -1,0 +1,81 @@
+<view class='container'>
+  <view class='top'>
+    <view class='upload_top'>
+      <view class='uploadFile_item uploadFile' bindtap='uploadImg'>
+        <image class='upload_icon' src='../../images/upload.png' wx:if="{{imgUrls.length < 1}}"></image>
+        <image class='userImg' src='{{imgUrls[0]}}' wx:else></image>
+      </view>
+      <view class='upload_top_right'>
+        <view class='uploadFile_item uploadFile_item_small'>
+          <image class='upload_icon' src='../../images/upload.png' wx:if="{{imgUrls.length < 2}}"></image>
+          <image class='userImg' src='{{imgUrls[1]}}' wx:else></image>
+        </view>
+        <view class='uploadFile_item uploadFile_item_small'>
+          <image class='upload_icon' src='../../images/upload.png' wx:if="{{imgUrls.length < 3}}"></image>
+          <image class='userImg' src='{{imgUrls[2]}}' wx:else></image>
+        </view>
+      </view>
+    </view>
+    <view class='upload_bottom'>
+      <view class='uploadFile_item uploadFile_item_small'>
+        <image class='upload_icon' src='../../images/upload.png' wx:if="{{imgUrls.length < 4}}"></image>
+          <image class='userImg' src='{{imgUrls[3]}}' wx:else></image>
+      </view>
+      <view class='uploadFile_item uploadFile_item_small'>
+        <image class='upload_icon' src='../../images/upload.png' wx:if="{{imgUrls.length < 5}}"></image>
+          <image class='userImg' src='{{imgUrls[4]}}' wx:else></image>
+      </view>
+      <view class='uploadFile_item uploadFile_item_small'>
+        <image class='upload_icon' src='../../images/upload.png' wx:if="{{imgUrls.length < 6}}"></image>
+          <image class='userImg' src='{{imgUrls[5]}}' wx:else></image>
+      </view>
+    </view>
+    
+    
+  </view>
+  <form bindsubmit="formSubmit" class='fromBox'>
+    <view class='item'>
+      <image class='icon' src='../../images/card.png'></image>
+      <text class='name'>昵称</text>
+      <input type='text' name="nickName" value='{{userInfo.nickName}}' />
+    </view>
+    <view class='item'>
+      <image class='icon' src='../../images/card.png'></image>
+      <text class='name'>微信号</text>
+      <input type='text' value='{{wxName}}' disabled='true' />
+    </view>
+    <view class='item'>
+      <image class='icon' src='../../images/card.png'></image>
+      <text class='name'>出生年月</text>
+      <input type='text' name="birthday" value='{{userInfo.birthday}}' />
+    </view>
+    <view class='item'>
+      <image class='icon' src='../../images/card.png'></image>
+      <text class='name'>星座</text>
+      <input type='text' name="constellation" value='{{userInfo.constellation}}' />
+    </view>
+    <view class='item'>
+      <image class='icon' src='../../images/card.png'></image>
+      <text class='name'>身高</text>
+      <input type='text' name="height" value='{{userInfo.height}}' />
+    </view>
+    <view class='item'>
+      <image class='icon' src='../../images/card.png'></image>
+      <text class='name'>毕业院校</text>
+      <input type='text' name="school" value='{{userInfo.school}}' />
+    </view>
+    <view class='item'>
+      <image class='icon' src='../../images/card.png'></image>
+      <text class='name'>所在城市</text>
+      <input type='text' name="city" value='{{userInfo.city}}' />
+    </view>
+    <view class='item'>
+      <image class='icon' src='../../images/card.png'></image>
+      <text class='name'>兴趣爱好</text>
+      <input type='text' name="interest" value='{{userInfo.interest}}' />
+    </view>
+    <view class='bottom'>
+      <button form-type="submit">完成</button>
+    </view>
+  </form>
+</view>

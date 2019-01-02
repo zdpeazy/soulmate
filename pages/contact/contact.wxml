@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="content">
+    <view class="opposite">
+      <view class='avatar'>
+        <image src='../../images/avatar.png'></image>
+      </view>
+      <view class='name'>我的昵称</view>
+      <view class='contacting'>正在等待对方接受邀请...</view>
+    </view>
+    <view class='cancel'>
+      <image src='../../images/cancel-talking.png'></image>
+      <text class='txt'>取消</text>
+    </view>
+  </view>
+</view>

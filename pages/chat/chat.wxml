@@ -1,0 +1,45 @@
+<!--index.wxml-->
+<view class="container">
+  <import src="../../components/tabbar.wxml" />
+  <template is="tabBar" data="{{tabBar}}" />
+  <!-- <import src="../../components/blur.wxml" />
+  <template is="blurImg" data="{{blurImg}}" /> -->
+  <view class="content">
+    <!-- <view class="item" bindtap='gotoChatView' wx:for="{{userList}}" wx:key="*this" wx:if="{{userList.length > 0}}">
+      <view class="userImg">
+        <image src='{{item.firstIcon}}'></image>
+      </view>
+      <view class="info">
+        <text class='name'>{{item.nickName}}</text>
+        <text class='desc'>语音聊天时长 {{item.chatDuration}}</text>
+      </view>
+    </view> -->
+    <view class="item" bindtap='gotoChatView'>
+      <view class="userImg">
+        <image src='http://jenny.oss-cn-beijing.aliyuncs.com/U5c23aad79bb4cc09542e9abe/1.png'></image>
+      </view>
+      <view class="info">
+        <text class='name'>啦啦啦啦</text>
+        <text class='desc'>语音聊天时长 1:20</text>
+      </view>
+    </view>
+    <view class="item" bindtap='gotoChatView'>
+      <view class="userImg">
+        <image src='http://jenny.oss-cn-beijing.aliyuncs.com/U5c23aad79bb4cc09542e9abe/2.png'></image>
+      </view>
+      <view class="info">
+        <text class='name'>merry</text>
+        <text class='desc'>语音聊天时长 3:30</text>
+      </view>
+    </view>
+    <view class="item" bindtap='gotoChatView'>
+      <view class="userImg">
+        <image src='http://jenny.oss-cn-beijing.aliyuncs.com/U5c23aad79bb4cc09542e9abe/3.png'></image>
+      </view>
+      <view class="info">
+        <text class='name'>啦啦啦啦fff</text>
+        <text class='desc'>语音聊天时长 4:45</text>
+      </view>
+    </view>
+  </view>
+</view>

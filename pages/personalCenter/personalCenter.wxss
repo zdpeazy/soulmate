@@ -1,0 +1,43 @@
+page{
+  background: #eee;
+}
+.info{
+  box-sizing: border-box;
+  width: 100%;
+  height: 150rpx;
+  background: #fff;
+  padding: 10rpx 20rpx;
+}
+.info .name{
+  box-sizing: border-box;
+  padding: 10rpx 0 20rpx;
+  font-size: 32rpx;
+  color: #e19690;
+}
+.info .address{
+  box-sizing: border-box;
+  font-size: 28rpx;
+  color: #999;
+}
+.title{
+  font-size: 28rpx;
+  padding: 40rpx 30rpx 10rpx;
+  color: #999;
+}
+.detail{
+  padding: 0 30rpx;
+  font-size: 28rpx;
+  background: #fff;
+}
+.detail .item{
+  display: flex;
+  padding: 20rpx 0;
+  border-bottom:1rpx solid #eee;
+}
+.detail .item .name{
+  width: 150rpx;
+  color: #999;
+}
+.detail .item .value{
+  flex: 1;
+}

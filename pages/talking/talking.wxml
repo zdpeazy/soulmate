@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="content">
+    <view class="opposite">
+      <view class='avatar'>
+        <image src='../../images/avatar.png'></image>
+      </view>
+      <view class='name'>我的昵称</view>
+    </view>
+    <view class='question'>
+      <view class='question_txt'>你的童年快乐么?为什么？</view>
+      <view class="next_question">
+        <text>下一个问题</text>
+      </view>
+    </view>
+    <view class='btn'>
+      <view class="item">
+        <image src='../../images/silence.png'></image>
+        <view class='txt'>静音</view>      
+      </view>
+      <view class="item">
+        <image src='../../images/cancel-talking.png'></image> 
+        <view class='txt'>挂断</view>     
+      </view>
+    </view>
+  </view>
+</view>

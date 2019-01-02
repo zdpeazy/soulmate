@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+  <import src="../../components/tabbar.wxml" />
+  <template is="tabBar" data="{{tabBar}}" />
+  <view class="content">
+    <view class="opposite" bindtap='lookDetail'>
+      <view class='avatar'>
+        <image src='../../images/user-img.png'></image>
+      </view>
+      <view class='photo'>
+        <view class='photoImg'>
+          <image src='../../images/photo.png'></image>
+        </view>
+      </view>
+    </view>
+    <view class='voice' bindtap='contact'>
+      <image src='../../images/voice.png'></image>
+    </view>
+  </view>
+</view>
